@@ -14,9 +14,6 @@
 <?php
 
 
-
-
-
 function showAll(){
 
  	$ids = "select * from IDEAS";

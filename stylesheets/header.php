@@ -14,9 +14,14 @@
     <div class="navbar-header">
       <a class="navbar-brand" href="index.php">IDEArena</a>
     </div>
+
     <ul class="nav navbar-nav">
       <li><a href="index.php">Home</a></li>
+      <li><a href="catagories.php">Catagories</a></li>
 	  <li><a href="addpost.php">Submit Idea</a></li>
+	  <li><a href="signup.php">Sign Up</a></li>
+	  <li><a href="login.php">Login</a></li>
+	  <li><a href="logout.php">Log Out</a></li>
     </ul>
   </div>
 </nav>
