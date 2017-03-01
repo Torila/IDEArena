@@ -22,7 +22,7 @@ The most viewed/commented on proposals are place within the Coliseum (or the Hot
 
 <b>Winning</b> Each side wins based on the amount of votes each side produced along with how many people switched sides. The side that wins are given votes based on how popular their side ended up in the end. Votes are a precious commodity since only ten votes are given to people every day and this makes it so people are careful with what they vote for (so, not the trolls, etc.)
 
-<b>Clapping</b> Members that are not logged in can only view the top rated responses. They can clap for a ceirtan side, but their claps do not weigh in on the final score.
+<b>Clapping</b> Members that are not logged in can only view the top rated responses. They can clap for a side, but their claps do not weigh in on the final score.
 
 <b>Report</b> Report comments for spam. 
 
