@@ -13,7 +13,8 @@ Person A posts an idea which can be placed in specific categories. Once clicked 
 <li>If they agree, they can either vote on the proposal or they can write their own proposal based on the idea. They can only see and vote on the top comment of the opposition. This encourages the opposing side to vote for the best idea that the opposing side can see.</li>
 
 <li>If there is no contention in one week, the proposal becomes non-contested.</li>
-</ul><br>The most viewed/commented on proposals are place within the Coliseum (or the Hot section). The new proposals are placed in the New section.
+</ul>
+<br>The most viewed/commented on proposals are place within the Coliseum (or the Hot section). The new proposals are placed in the New section.
 
 <b>Dispute</b> People on the opposing side can only view the top voted counterpoint. So, if people want their views to be represented, they have to join the side they actually agree with in order to vote for the better opinion. Otherwise, the dispute side is similar to the idea section.
 
