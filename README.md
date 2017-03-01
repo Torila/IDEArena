@@ -1,6 +1,6 @@
 # IDEArena
 
-<b>Abstract.</b> My goal is to create a social media and forum like database where people can discuss ideas while immersing themselves with the opposing idea. These ideas can include anything from entertainment to serious topics. These are a few things I wish to include in my database and website:
+<b>Abstract.</b> My goal is to create a social media and forum like database where people can discuss ideas while immersing themselves with the opposing idea kind of like a debate team simulation but for an online community. These ideas can include anything from entertainment to serious topics. These are a few things I wish to include in my database and website:
 <ul>
 <li>Customizable profiles that can help engage people with a community</li>
 <li>The Arena System</li>
@@ -17,23 +17,25 @@ Person A posts an idea which can be placed in specific categories. Once clicked 
 </ul>
 <br>The most viewed/commented on proposals are place within the Coliseum (or the Hot section). The new proposals are placed in the New section.
 
-<li>Dispute</li>
-<br>People on the opposing side can only view the top voted counterpoint. So, if people want their views to be represented, they have to join the side they actually agree with in order to vote for the better opinion. Otherwise, the dispute side is similar to the idea section.
+<b>Dispute</b> People on the opposing side can only view the top voted counterpoint. So, if people want their views to be represented, they have to join the side they actually agree with in order to vote for the better opinion. Otherwise, the dispute side is similar to the idea section.
 
-<li>Switching Sides</li>
-<br>After voting for the opposing side up to three time, a person can switch sides. This adds to the opposing sides total score.
+<b>Switching Sides</b> After voting for the opposing side up to three time, a person can switch sides. This adds to the opposing sides total score.
 
-<li>Winning</li>
-<br>Each side wins based on the amount of votes each side produced along with how many people switched sides.
+<b>Winning</b> Each side wins based on the amount of votes each side produced along with how many people switched sides. The side that wins are given votes based on how popular their side ended up in the end. Votes are a precious commodity since only ten votes are given to people every day and this makes it so people are careful with what they vote for (so, not the trolls, etc.)
 
-The side that wins are given votes based on how popular their side ended up in the end. Votes are a precious commodity since only ten votes are given to people every day and this makes it so people are careful with what they vote for (so, not the trolls, etc.)
+<b>Clapping</b> Members that are not logged in can only view the top rated responses. They can clap for a ceirtan side, but their claps do not weigh in on the final score.
+
+<b>Report</b> Report comments for spam. 
+
+<b>Overall</b> I want to make a social media platform that feels like a game yet is also educational. I also want to platform that naturally favors "critical thinking" type of comments with "audiance moderation."
 
 <b><br>Basic Goals for the Research.</b>
 <ul>
 <li>Create the Arena system (have voting, comments, idea, and dispute sections)</li>
-<li>Create the user system</li>
+<li>Learn how to create a secure login using hashed passwords</li>
+<li>Create a secure user system</li>
 </ul>
-<br><b>Hopeful Goals for Research</b>
+<br><b>End Goals for Research</b>
 <ul><li>Transfer this website to app form for easy access.</li>
 	
 
