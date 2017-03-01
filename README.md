@@ -6,8 +6,7 @@
 <li>The Arena System</li>
 </ul>
 <b>The Arena System</b>
-    <ol>
-   <li>Idea</li><br>Person A posts an idea which can be placed in specific categories. Once clicked by Person B, a popup asks if Person B agrees or disagrees with the idea. 
+Person A posts an idea which can be placed in specific categories. Once clicked by Person B, a popup asks if Person B agrees or disagrees with the idea. 
 <ul>
 <li>If they disagree, and there is no challenger, B is prompted to write why they disagree (141-5,000 characters). Else, they are allowed to vote on and view the discussion. </li>
 
