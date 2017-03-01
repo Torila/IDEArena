@@ -1,6 +1,9 @@
+<?php ob_start(); ?>
+<?php session_start(); ?>
+
+
 <?php
-ob_start();
-//session_start();
+
 	define('DBHOST','localhost');
 	define('DBUSER','vnlaughlin');
 	define('DBPASS','cs480');
@@ -10,5 +13,28 @@ ob_start();
 
 	date_default_timezone_set('America/New_York');
 
-	//add class if doesn't work
+	//add class
+
+	function __autoload($class) {
+
+	   $class = strtolower($class);
+	   $classpath = 'classes/class.'.$class . '.php';
+	   if ( file_exists($classpath)) {
+	      require_once $classpath;
+		}
+
+		//if call from within admin adjust the path
+	   $classpath = '../classes/class.'.$class . '.php';
+	   if ( file_exists($classpath)) {
+	      require_once $classpath;
+		}
+	   $classpath = '../../classes/class.'.$class . '.php';
+	   if ( file_exists($classpath)) {
+	      require_once $classpath;
+		}
+
+	}
+
+	$user = new User($connect);
 ?>
+

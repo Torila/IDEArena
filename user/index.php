@@ -1,4 +1,4 @@
-<?php require('includes/connect.php'); ?>
+<?php require('../includes/connect.php'); ?>
  <!--
  --------------------------------------------------------------------------------------------------------------
  		HOMEPAGE for IDEArena
@@ -21,7 +21,7 @@
  </head>
 <body>
 
- <!-- Header -->
+ <!-- NAV BAR -->
 <nav class="navbar navbar-default">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
@@ -30,8 +30,8 @@
 	    <ul class="nav navbar-nav">
 	    <li><a href="index.php">Home</a></li>
 	 	<li><a href="">Catagories</a></li>
-	 	<li><a href="user\signup.php">Sign Up</a></li>
-	 	<li><a href="user\login.php">Login</a></li>
+	 	<li><a href="addpost.php">Add Post</a></li>
+	 	<li><a href="logout.php">Log Out</a></li>
 	    </ul>
 	  </div>
 </nav>
@@ -40,7 +40,7 @@
 
  <!-- Body -->
  <div class="container">
-   <h2>IDEArena</h2>
+
    <p>Choose an idea...</p>
  </div>
 

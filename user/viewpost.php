@@ -1,15 +1,9 @@
-<?php require('includes/connect.php'); ?>
-<?php
-	$stmt = $connect->prepare('SELECT postID, postTitle, postQst, postDate FROM posts WHERE postID = :postID');
-	$stmt->execute(array(':postID' => $_GET['id']));
-	$row = $stmt->fetch();
-
-?>
+<?php require('../includes/connect.php'); ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title> <?php echo $row['postTitle']; ?> </title>
+  <title>POST TITLE</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -27,24 +21,29 @@
 	    <ul class="nav navbar-nav">
 	    <li><a href="index.php">Home</a></li>
 	 	<li><a href="">Catagories</a></li>
-	 	<li><a href="user\signup.php">Sign Up</a></li>
-	 	<li><a href="user\login.php">Login</a></li>
+	 	<li><a href="addpost.php">Add Post</a></li>
+	 	<li><a href="logout.php">Log Out</a></li>
 	    </ul>
 	  </div>
 </nav>
 
+<?php
+
+	$stmt = $connect->prepare('SELECT postID, postTitle, postQst, postDate FROM posts WHERE postID = :postID');
+	$stmt->execute(array(':postID' => $_GET['id']));
+	$row = $stmt->fetch();
+
+?>
 
  <!-- Body -->
  <body>
-
-<div class="container">
-
+	<div class="container">
  <?php
  	echo '<h1>'.$row['postTitle'].'</h1>';
  	echo '<p>Posted on '.date('M jS Y', strtotime($row['postDate'])).'</p>';
 	echo '<p>'.$row['postQst'].'</p>';
 
  ?>
-</div>
+	</div>
  </body>
  </html>
