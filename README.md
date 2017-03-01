@@ -14,7 +14,7 @@ Person A posts an idea which can be placed in specific categories. Once clicked 
 
 <li>If there is no contention in one week, the proposal becomes non-contested.</li>
 </ul>
-<br>The most viewed/commented on proposals are place within the Coliseum (or the Hot section). The new proposals are placed in the New section.
+The most viewed/commented on proposals are place within the Coliseum (or the Hot section). The new proposals are placed in the New section.
 
 <b>Dispute</b> People on the opposing side can only view the top voted counterpoint. So, if people want their views to be represented, they have to join the side they actually agree with in order to vote for the better opinion. Otherwise, the dispute side is similar to the idea section.
 
